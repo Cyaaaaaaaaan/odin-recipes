@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
     text-align: center;
 }
 
@@ -15,4 +16,25 @@ body {
 img {
     width: 500px;
     height: auto;
+}
+
+.card {
+    background-color: #ddd;
+}
+
+.first, .second, .third {
+    background-color: #fff;
+    padding: 5% 10%;
+    margin: 5% auto;
+    display: block;
+}
+
+.bullet {
+    text-align: center;
+    margin-left: 11em;
+}
+
+li span{
+    display: block;
+    margin-left: -14em;
 }
